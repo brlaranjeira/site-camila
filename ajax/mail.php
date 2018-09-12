@@ -6,4 +6,4 @@
  * Time: 18:44
  */
 
-echo "foi";
+mail ( "brlaranjeira@gmail.com" , "TESTE" , "TESTE");
