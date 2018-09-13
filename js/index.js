@@ -6,10 +6,10 @@ const enviaContato = () => {
     $.ajax('../ajax/mail.php',{
         method: 'post',
         data: { nome: nome, mail: mail, fone: fone, msg: msg},
-        success: () => {
-            alert('foifoi');
-        }, error: () => {
-            alert('naaaaao');
+        success: (response) => {
+            alert(response);
+        }, error: (response) => {
+            debugger;
         }
     });
 }
