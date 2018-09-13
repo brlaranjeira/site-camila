@@ -15,4 +15,6 @@ Nome: $contatoNome
 E-mail: $contatoMail
 Telefone: $contatoFone
 Mensagem: $contatoMsg";
-$mailOk = mail ( "psi_camila@hotmail.com" , "MENSAGEM NO SITE" , $str);
+$mailOk = mail ( "brlaranjeira@gmail.com" , "MENSAGEM NO SITE" , $str);
+$resp = ["success"=> $mailOk];
+echo json_encode($resp);
