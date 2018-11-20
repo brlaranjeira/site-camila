@@ -177,8 +177,8 @@
 
     <div class="container">
         <div class="card mb-3">
-            <div class="card-header">Contato</div>
-            <div class="card-body">
+            <!--<div class="card-header">Contato</div>-->
+            <div class="card-body pb-2">
                 <div class="row">
                     <div class="col">
                         <label for="contato-nome">Nome</label>
@@ -203,7 +203,7 @@
                 </div>
                 <div class="row">
                     <div class="col">
-                        <button onclick="enviaContato()" class="mt-2 pb-3 pt-2 btn form-control btn-block btn-primary">Enviar</button>
+                        <button id="btn-envia-contato" alertTime="5000" onclick="enviaContato()" class="mt-2 pb-3 pt-2 btn form-control btn-block btn-primary">Enviar</button>
                     </div>
                 </div>
             </div>
@@ -327,7 +327,10 @@
 <!-- Custom scripts for this template -->
 <script type="application/ecmascript" language="ecmascript" src="vendor/jquery/jquery.min.js"></script>
 <script type="application/ecmascript" language="ecmascript" src="vendor/jquery-mask/jquery.mask.min.js"></script>
+<script type="application/ecmascript" language="ecmascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script type="application/ecmascript" language="ecmascript" src="vendor/bootstrap-notify/bootstrap-notify.min.js"></script>
 <script type="application/ecmascript" language="ecmascript" src="js/grayscale.min.js"></script>
+
 <script type="application/ecmascript" language="ecmascript" src="js/index.js"></script>
 
 

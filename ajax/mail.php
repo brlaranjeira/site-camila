@@ -6,4 +6,4 @@
  * Time: 18:44
  */
 
-echo "foi";
+echo "Sua mensagem foi enviada.<br/>Entrarei em contato em breve.";
