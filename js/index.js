@@ -24,4 +24,4 @@ const enviaContato = () => {
             alert('naaaaao');
         }
     });
-}
+};
