@@ -2,10 +2,6 @@
 <html lang="en">
 
 <head>
-
-    <?
-    echo '';
-    ?>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -329,7 +325,7 @@
 <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
 <!-- Custom scripts for this template -->
-<script type="application/ecmascript" language="ecmascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="application/ecmascript" language="ecmascript" src="vendor/jquery/jquery.min.js"></script>
 <script type="application/ecmascript" language="ecmascript" src="vendor/jquery-mask/jquery.mask.min.js"></script>
 <script type="application/ecmascript" language="ecmascript" src="js/grayscale.min.js"></script>
 <script type="application/ecmascript" language="ecmascript" src="js/index.js"></script>
