@@ -311,3 +311,19 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
+
+@keyframes mostra-alerta {
+  0% {opacity: 0;}
+  5% {opacity: 1;}
+  95% {opacity: 1;}
+  100% {opacity: 0}
+}
+
+.alerta-visivel {
+  animation-name: mostra-alerta;
+  animation-duration: 10s;
+}
+
+.alerta-invisivel {
+  opacity: 0;
+}
