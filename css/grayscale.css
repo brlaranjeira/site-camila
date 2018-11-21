@@ -106,14 +106,16 @@
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
+  /*background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));*/
+  background: white;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
 
 .masthead h2 {
   font-size: 1.2rem;
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
+  /*background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));*/
+  background: white;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   max-width: 20rem;
@@ -133,6 +135,7 @@
 
 @media (min-width: 992px) {
   .masthead {
+    padding-top: 60vh;
     height: 100vh;
     /*padding: 0;*/
   }

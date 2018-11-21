@@ -60,20 +60,20 @@
 <header class="masthead ">
     <div class="container d-flex h-100 align-items-tablcenter">
         <div class="mx-auto text-center">
-            <h1 class="text-black-50 mx-auto mb-4">Camila Moraes Chagas</h1>
-            <h2 class="text-white-50 mx-auto pb-2 mt-3">Psicóloga - Psicoterapeuta</h2>
+            <h1 class="text-white-50 mx-auto mb-4">Camila Moraes Chagas</h1>
+            <!--<h2 class="text-white-50 mx-auto pb-2 mt-3">Psicóloga - Psicoterapeuta</h2>-->
             <h2 class="text-white-50 mx-auto mt-1">CRP 07/28346</h2>
         </div>
     </div>
 </header>
 
 <!-- About Section -->
-<section id="sobre" class="about-section text-center">
+<section id="sobre" class="d-none about-section text-center">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <h2 class="text-white mb-4">Psicoterapia psicanalítica</h2>
-                <p class="text-white-50 my-3 text-left">
+                <p class="text-white my-3 text-left">
                     A psicoterapia psicanalítica auxilia na compreensão de sua experiência de vida e no reconhecimento de seus potenciais e de suas dificuldades.
                     O autoconhecimento promove a chance de transformação e possibilita ao sujeito assumir uma posição diferente diante de suas demandas.
                 </p>
@@ -90,7 +90,7 @@
 
             </div>
         </div>
-        <!--<img src="img/ipad.png" class="img-fluid" alt="">-->
+
     </div>
 </section>
 
@@ -183,7 +183,7 @@
                 <div class="row <?=$paddingClass?>">
                     <div class="col">
                         <label for="contato-msg">Mensagem</label>
-                        <textarea class="form-control" name="contato-msg" id="contato-msg" cols="30" rows="10"></textarea>
+                        <textarea class="form-control" name="contato-msg" id="contato-msg" cols="30" rows="5"></textarea>
                     </div>
                 </div>
                 <div class="row pb-0 mb-0 <?=$paddingClass?>">
