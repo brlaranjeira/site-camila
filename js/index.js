@@ -13,15 +13,12 @@ const enviaContato = () => {
         method: 'post',
         data: { nome: nome, mail: mail, fone: fone, msg: msg},
         success: ( response ) => {
-            $.notify({
-                // options
-                message: response
-            },{
-                // settings
-                type: 'success'
-            });
+            $.notify(
+                { message: response  },
+                { type: 'success' }
+            );
         }, error: () => {
-            alert('naaaaao');
+            alert('nao');
         }
     });
 };
