@@ -59,8 +59,8 @@
 <!-- Header -->
 <header class="masthead ">
     <div class="container d-flex h-100 align-items-tablcenter">
-        <div class="mx-auto text-center">
-            <h1 class="text-white-50 mx-auto mb-4">Camila Moraes Chagas</h1>
+        <div class="mx-auto pt-5 text-center">
+            <h1 id="h1-nome" class="text-white-50 mx-auto mb-md-4 pb-1">Camila Moraes<br class="d-md-none"/> Chagas</h1>
             <!--<h2 class="text-white-50 mx-auto pb-2 mt-3">Psicóloga - Psicoterapeuta</h2>-->
             <h2 class="text-white-50 mx-auto mt-1">CRP 07/28346</h2>
         </div>
@@ -72,7 +72,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto">
-                <h2 class="text-white mb-4">Psicoterapia psicanalítica</h2>
+                <h2 class="text-white ">Psicoterapia psicanalítica</h2>
                 <p class="text-white my-3 text-left">
                     A psicoterapia psicanalítica auxilia na compreensão de sua experiência de vida e no reconhecimento de seus potenciais e de suas dificuldades.
                     O autoconhecimento promove a chance de transformação e possibilita ao sujeito assumir uma posição diferente diante de suas demandas.
@@ -99,57 +99,39 @@
     <div class="container">
 
         <!-- Featured Project Row -->
-        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-            <div class="col-xl-8 col-lg-7">
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5 d-flex flex-md-row flex-column">
+            <!--<div class="order-md-1 order-2">-->
+            <div class="order-md-2 order-1 col-xl-8 col-lg-7">
                 <img class="img-fluid mb-3 mb-lg-0" src="img/sofa.jpg" alt="">
             </div>
-            <div class="col-xl-4 col-lg-5">
+
+            <div class="order-md-1 order-2 col-xl-4 col-lg-5">
                 <div class="featured-text text-right">
                     <!--<h4>Shoreline</h4>-->
-                    <p class="text-black-50 py-4 mb-0 text-left">"Seja qual for o sofrimento psíquico, terá de passar pela palavra e ser dito, terá de ser libertado das 'correntes' que os prendem sob a forma de pensamento recalcado nos 'labirintos obscuros da mente', e libertado no dizer"</p>
-                    <!--<blockquote class="blockquote">"Não há solução química para sofrimento psíquico. Medicamentos podem ajudar, mas não podem resolver o que está mal-resolvido. Seja qual for o sofrimento psíquico, terá de passar pela palavra e ser dito, terá de ser libertado das 'correntes' que os prendem sob a forma de pensamento recalcado nos 'labirintos obscuros da mente', e libertado no dizer. Escolher não dizer e calar-se é prender-se a dor psíquica, é escolher o pior. 'Ou dire ou pire' dizia Lacan"</p>-->
+                    <p class="text-black-50 py-4 mb-0 text-left text-border-right">"Seja qual for o sofrimento psíquico, terá de passar pela palavra e ser dito, terá de ser libertado das 'correntes' que os prendem sob a forma de pensamento recalcado nos 'labirintos obscuros da mente', e libertado no dizer"</p>
                 </div>
                 <footer class="blockquote-footer py-3 text-right">Jorge Sesarino</footer>
             </div>
+
         </div>
 
-        <!-- Project One Row -->
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-            <div class="col-lg-6">
-                <img style="height: 100%" class="img-fluid" src="img/demo-image-02.jpg" alt="">
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5 d-flex flex-md-row flex-column">
+            <!--<div class="order-md-1 order-2">-->
+            <div class="order-md-1 order-1 col-xl-8 col-lg-7">
+                <img class="img-fluid mb-3 mb-lg-0" src="img/sofa.jpg" alt="">
             </div>
-            <div class="col-lg-6">
-                <div class="bg-black text-center h-100 project">
-                    <div class="d-flex h-100">
-                        <div class="project-text w-100 my-auto text-center text-lg-left">
-                            <!--<h4 class="text-white">Psicanálise</h4>-->
-                            <p class="mb-0 text-white-50">"O sofrimento subjetivo é o sinal de um sujeito em conflito. Se não há fumaça sem fogo, o sofrimento é a fumaça e o fogo é o que arde no inconsciente. A psicanálise permite transformar o mal-estar dos sintomas em uma fala que expressa esses conflitos do sujeito, e assim, aquilo que era doloroso pode encontrar outros destinos."</p>
-                            <footer class="blockquote-footer pt-0 pb-4"">Jorge Sesarino</footer>
-                            <hr class="d-none d-lg-block mb-0 ml-0">
-                        </div>
-                    </div>
+
+            <div class="order-md-2 order-2 col-xl-4 col-lg-5">
+                <div class="featured-text text-right">
+                    <!--<h4>Shoreline</h4>-->
+                    <p class="text-black-50 py-4 mb-0 text-left text-border-left">"Seja qual for o sofrimento psíquico, terá de passar pela palavra e ser dito, terá de ser libertado das 'correntes' que os prendem sob a forma de pensamento recalcado nos 'labirintos obscuros da mente', e libertado no dizer"</p>
                 </div>
+                <footer class="blockquote-footer py-3 text-left">Jorge Sesarino</footer>
             </div>
+
         </div>
 
-        <!-- Project Two Row -->
-        <div class="row justify-content-center no-gutters">
-            <div class="col-lg-6">
-                <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
-            </div>
-            <div class="col-lg-6 order-lg-first">
-                <div class="bg-black text-center h-100 project">
-                    <div class="d-flex h-100">
-                        <div class="project-text w-100 my-auto text-center text-lg-right">
-                            <!--<h4 class="text-white">Sofrimento</h4>-->
-                            <p class="mb-0 text-white-50">"Seja qual for o sofrimento psíquico, terá de passar pela palavra e ser dito, terá de ser libertado das 'correntes' que os prendem sob a forma de pensamento recalcado nos 'labirintos obscuros da mente', e libertado no dizer"</p>
-                            <footer class="blockquote-footer pt-0 pb-4">Antônio Quinet</footer>
-                            <hr class="d-none d-lg-block pt-0 my-0 mr-0">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
 
     </div>
 </section>
