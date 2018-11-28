@@ -18,13 +18,20 @@ const enviaContato = () => {
             method: 'post',
             data: { nome: nome, mail: mail, fone: fone, msg: msg},
             success: ( response ) => {
+                response = JSON.parse(response);
                 $.notify (
-                    { message: response  },
-                    { type: 'success' }
+                    { message: response.message },
+                    { type: response.success ? 'success' : 'danger' }
                 );
-                ['nome','mail','fone','msg'].forEach( x => {document.getElementById('contato-'+x).value='';} );
+                if (response.success) {
+                    ['nome','mail','fone','msg'].forEach( x => {document.getElementById('contato-'+x).value='';} );
+                }
+
             }, error: () => {
-                alert('nao');
+                $.notify (
+                    { message: "Ocorreu um erro inesperado." },
+                    { type: 'danger' }
+                );
             }
         });
     } else {

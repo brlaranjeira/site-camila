@@ -11,7 +11,7 @@ $contatoMail=$_POST['mail'];
 $contatoFone=$_POST['fone'];
 $contatoMsg=$_POST['msg'];
 
-echo "Olá, $contatoNome<br/>Obrigada por entrar em contato.<br/>Em breve entrarei em contato com você.";
+
 
 
 
@@ -23,5 +23,11 @@ E-mail: $contatoMail
 Telefone: $contatoFone
 Mensagem: $contatoMsg";
 $mailOk = mail ( "brlaranjeira@gmail.com" , "MENSAGEM NO SITE" , $str);
-$resp = ["success"=> $mailOk];
+$msg = $mailOk ?
+    "Olá, $contatoNome<br/>Obrigada por entrar em contato.<br/>Em breve entrarei em contato com você." :
+    "Houve um erro ao tentar enviar sua mensagem.";
+$resp = [
+    "success"=> $mailOk,
+    "message" => $msg
+];
 echo json_encode($resp);
