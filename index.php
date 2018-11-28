@@ -188,8 +188,8 @@
                         <i class="fas fa-map-marked-alt text-primary mb-2"></i>
                         <h4 class="text-uppercase m-0">Endereço</h4>
                         <hr class="my-4">
-                        <div class="small text-black-50">Rua Venâncio Aires, 2035 (CACISM), Sala 405.</div>
-                        <div class="small text-black-50">Santa Maria - RS</div>
+                        <div class="small text-black-50"><a target="_blank" href="https://goo.gl/maps/kDjDLB5yvP52">Rua Venâncio Aires, 2035 (CACISM), Sala 405.</a></div>
+                        <div class="small text-black-50"><a target="_blank" href="https://goo.gl/maps/kDjDLB5yvP52">Santa Maria - RS</a></div>
                     </div>
                 </div>
             </div>
