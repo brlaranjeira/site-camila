@@ -36,11 +36,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
+                <!--<li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#sobre">Sobre</a>
-                </li>
+                </li>-->
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#consideracoes">Considerações</a>
+                    <a class="nav-link js-scroll-trigger" href="#psicanalise">Psican&aacute;lise</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#contato">Contato</a>
@@ -59,10 +59,11 @@
 <!-- Header -->
 <header class="masthead ">
     <div class="container d-flex h-100 align-items-tablcenter">
-        <div class="mx-auto pt-5 text-center">
-            <h1 id="h1-nome" class="text-white-50 mx-auto mb-md-4 pb-1">Camila Moraes<br class="d-md-none"/> Chagas</h1>
+        <div class="mx-auto pt-md-5 text-center">
+            <h1 id="h1-nome" class="text-white-50 mx-auto pb-md-4 pb-1">Camila Moraes<br class="d-md-none"/> Chagas</h1>
             <!--<h2 class="text-white-50 mx-auto pb-2 mt-3">Psicóloga - Psicoterapeuta</h2>-->
-            <h2 class="text-white-50 mx-auto mt-1">CRP 07/28346</h2>
+            <h2 class="text-white-50 font-weight-light pt-0 pb-1 mx-auto mb-md-3 mt-0">Psicóloga Clínica</h2>
+            <h2 class="text-white-50 font-weight-light mx-auto mt-1">CRP 07/28346</h2>
         </div>
     </div>
 </header>
@@ -95,20 +96,20 @@
 </section>
 
 <!-- Projects Section -->
-<section id="consideracoes" class="projects-section bg-light">
-    <div class="container">
+<section id="psicanalise" class="projects-section bg-light">
+    <div class="container px-0 px-md-3">
 
         <!-- Featured Project Row -->
         <div class="row align-items-center no-gutters mb-4 mb-lg-5 d-flex flex-md-row flex-column">
             <!--<div class="order-md-1 order-2">-->
             <div class="order-md-2 order-1 col-xl-8 col-lg-7">
-                <img class="img-fluid mb-3 mb-lg-0" src="img/sofa.jpg" alt="">
+                <img class="img-fluid mb-3 mb-lg-0" style="filter: grayscale(100%);width: 100%;" src="img/room.jpg" alt="">
             </div>
 
             <div class="order-md-1 order-2 col-xl-4 col-lg-5">
                 <div class="featured-text text-right">
                     <!--<h4>Shoreline</h4>-->
-                    <p class="text-black-50 py-4 mb-0 text-left text-border-right">"Seja qual for o sofrimento psíquico, terá de passar pela palavra e ser dito, terá de ser libertado das 'correntes' que os prendem sob a forma de pensamento recalcado nos 'labirintos obscuros da mente', e libertado no dizer"</p>
+                    <p class="text-black-50 py-4 px-1 px-md-0 mb-0 text-left text-border-right">"Seja qual for o sofrimento psíquico, terá de passar pela palavra e ser dito, terá de ser libertado das 'correntes' que os prendem sob a forma de pensamento recalcado nos 'labirintos obscuros da mente', e libertado no dizer"</p>
                 </div>
                 <footer class="blockquote-footer py-3 text-right">Jorge Sesarino</footer>
             </div>
@@ -118,13 +119,13 @@
         <div class="row align-items-center no-gutters mb-4 mb-lg-5 d-flex flex-md-row flex-column">
             <!--<div class="order-md-1 order-2">-->
             <div class="order-md-1 order-1 col-xl-8 col-lg-7">
-                <img class="img-fluid mb-3 mb-lg-0" src="img/sofa.jpg" alt="">
+                <img class="img-fluid mb-3 mb-lg-0" style="filter: grayscale(100%);width: 100%;" src="img/couch.jpg" alt="">
             </div>
 
             <div class="order-md-2 order-2 col-xl-4 col-lg-5">
                 <div class="featured-text text-right">
                     <!--<h4>Shoreline</h4>-->
-                    <p class="text-black-50 py-4 mb-0 text-left text-border-left">"Seja qual for o sofrimento psíquico, terá de passar pela palavra e ser dito, terá de ser libertado das 'correntes' que os prendem sob a forma de pensamento recalcado nos 'labirintos obscuros da mente', e libertado no dizer"</p>
+                    <p class="text-black-50 py-4 px-1 px-md-0 mb-0 text-right text-border-left">"Seja qual for o sofrimento psíquico, terá de passar pela palavra e ser dito, terá de ser libertado das 'correntes' que os prendem sob a forma de pensamento recalcado nos 'labirintos obscuros da mente', e libertado no dizer"</p>
                 </div>
                 <footer class="blockquote-footer py-3 text-left">Jorge Sesarino</footer>
             </div>
@@ -180,6 +181,7 @@
 
     <div class="container">
         <div class="row">
+
             <div class="col-md-4 mb-3 mb-md-0">
                 <div class="card py-4 h-100">
                     <div class="card-body text-center">
@@ -218,8 +220,8 @@
         </div>
 
         <div class="social d-flex justify-content-center">
-            <a href="#" class="mx-2"><i class="fab fa-instagram"></i></a>
-            <a href="#" class="mx-2"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/psicologacamilamchagas/" class="mx-2"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/psicologacamilamchagas/" class="mx-2"><i class="fab fa-facebook-f"></i></a>
         </div>
 
     </div>
