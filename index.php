@@ -19,7 +19,7 @@ foreach ($mobileAgents as $mobileAgent) {
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Psicóloga Camila Moraes Chagas</title>
+    <title>Psicóloga Camila Moraes Chagas | Psicoterapia Psicanalítica | Santa Maria - RS</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
