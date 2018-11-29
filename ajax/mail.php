@@ -11,16 +11,16 @@ $contatoMail=$_POST['mail'];
 $contatoFone=$_POST['fone'];
 $contatoMsg=$_POST['msg'];
 
-
+$contatoMsg = str_replace('\n','\r\n',$contatoMsg);
 
 
 
 
 $str =
-"Uma mensagem foi enviada através do site!
-Nome: $contatoNome
-E-mail: $contatoMail
-Telefone: $contatoFone
+"Uma mensagem foi enviada através do site!\r\n
+Nome: $contatoNome\r\n
+E-mail: $contatoMail\r\n
+Telefone: $contatoFone\r\n
 Mensagem: $contatoMsg";
 $mailOk = mail ( "brlaranjeira@gmail.com" , "MENSAGEM NO SITE" , $str);
 $msg = $mailOk ?
