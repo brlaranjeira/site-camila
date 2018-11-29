@@ -1,4 +1,15 @@
 <!DOCTYPE html>
+<?
+$agent = strtolower($_SERVER['HTTP_USER_AGENT']);
+$mobileAgents = ['ipod','ipad','iphone','android','ios'];
+$isMobile = false;
+foreach ($mobileAgents as $mobileAgent) {
+    if (strstr($agent,$mobileAgent) != false) {
+        $isMobile = true;
+        break;
+    }
+}
+?>
 <html lang="en">
 
 <head>
@@ -213,7 +224,11 @@
                         <i class="fab fa-whatsapp text-primary mb-2"></i>
                         <h4 class="text-uppercase m-0">Telefone</h4>
                         <hr class="my-4">
-                        <div class="small text-black-50">(55) 991-070-395</div>
+                        <div class="small text-black-50">
+                            <? if ($isMobile) {echo '<a href="http://api.whatsapp.com/send?1=pt_BR&phone=5555991070395">';} ?>
+                            (55) 991-070-395
+                            <? if ($isMobile) {echo '</a>';} ?>
+                        </div>
                     </div>
                 </div>
             </div>
