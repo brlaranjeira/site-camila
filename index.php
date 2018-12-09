@@ -57,10 +57,10 @@ foreach ($mobileAgents as $mobileAgent) {
                     <a class="nav-link js-scroll-trigger" href="#contato">Contato</a>
                 </li>
                 <li class="nav-item">
-                    <a target="_blank" class="nav-link" href="https://www.instagram.com/psicologacamilamchagas/"><i class="fab fa-instagram"></i></a>
+                    <a target="_blank" class="nav-link" href="https://www.instagram.com/psicologacamilamchagas/"><i class="fab fa-instagram"></i><small class="d-md-none">&nbsp;/&nbsp;psicologacamilamchagas</small></a>
                 </li>
                 <li class="nav-item">
-                    <a target="_blank" class="nav-link" href="https://www.facebook.com/psicologacamilamchagas/"><i class="fab fa-facebook-f"></i></a>
+                    <a target="_blank" class="nav-link" href="https://www.facebook.com/psicologacamilamchagas/"><i class="fab fa-facebook-f"></i><small class="d-md-none">&nbsp;/&nbsp;psicologacamilamchagas</small></a>
                 </li>
             </ul>
         </div>
