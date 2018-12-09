@@ -140,7 +140,7 @@ foreach ($mobileAgents as $mobileAgent) {
                     <!--<h4>Shoreline</h4>-->
                     <p class="text-black-50 py-4 px-1 px-md-0 mb-0 text-center text-md-right text-border-left">"Não há solução química para sofrimento psíquico. Medicamentos podem ajudar, mas não podem resolver o que está mal-resolvido. Seja qual for o sofrimento psíquico, terá de passar pela palavra e ser dito, terá de ser libertado das 'correntes' que os prendem sob a forma de pensamento recalcado nos 'labirintos obscuros da mente', e libertado no dizer. Escolher não dizer e calar-se é prender-se a dor psíquica, é escolher o pior. 'Ou dire ou pire' dizia Lacan"</p>
                 </div>
-                <footer class="blockquote-footer py-3 text-left">Jorge Sesarino</footer>
+                <footer class="blockquote-footer py-3 text-md-left text-right">Jorge Sesarino</footer>
             </div>
 
         </div>

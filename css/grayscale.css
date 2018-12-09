@@ -219,7 +219,7 @@
   .blockquote-footer.text-right {
     padding: 0 2rem 0 0;
   }
-  .blockquote-footer.text-left {
+  .blockquote-footer.text-md-left {
     padding: 0 0 0 2rem;
   }
 }
