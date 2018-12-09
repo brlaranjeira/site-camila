@@ -214,7 +214,7 @@ foreach ($mobileAgents as $mobileAgent) {
                         <h4 class="text-uppercase m-0">E-mail</h4>
                         <hr class="my-4">
                         <div class="small text-black-50">
-                            <a href="mailto:psi_camila@hotmail.com">psi_camila@hotmail.com</a>
+                            <a href="#contato">psi_camila@hotmail.com</a>
                         </div>
                     </div>
                 </div>
