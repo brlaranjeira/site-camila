@@ -121,9 +121,9 @@ foreach ($mobileAgents as $mobileAgent) {
             <div class="order-md-1 order-2 col-xl-4 col-lg-5">
                 <div class="featured-text text-right">
                     <!--<h4>Shoreline</h4>-->
-                    <p class="text-black-50 py-4 px-1 px-md-0 mb-0 text-left text-border-right">"Seja qual for o sofrimento psíquico, terá de passar pela palavra e ser dito, terá de ser libertado das 'correntes' que os prendem sob a forma de pensamento recalcado nos 'labirintos obscuros da mente', e libertado no dizer"</p>
+                    <p class="text-black-50 py-4 px-1 px-md-0 mb-0 text-center text-md-left text-border-right">"O sofrimento subjetivo é o sinal de um sujeito em conflito. Se não há fumaça sem fogo, o sofrimento é a fumaça e o fogo é o que arde no inconsciente. A psicanálise permite transformar o mal-estar dos sintomas em uma fala que expressa esses conflitos do sujeito, e assim, aquilo que era doloroso pode encontrar outros destinos."</p>
                 </div>
-                <footer class="blockquote-footer py-3 text-right">Jorge Sesarino</footer>
+                <footer class="blockquote-footer py-3 text-right">Antônio Quinet</footer>
             </div>
 
         </div>
@@ -138,7 +138,7 @@ foreach ($mobileAgents as $mobileAgent) {
             <div class="order-md-2 order-2 col-xl-4 col-lg-5">
                 <div class="featured-text text-right">
                     <!--<h4>Shoreline</h4>-->
-                    <p class="text-black-50 py-4 px-1 px-md-0 mb-0 text-right text-border-left">"Seja qual for o sofrimento psíquico, terá de passar pela palavra e ser dito, terá de ser libertado das 'correntes' que os prendem sob a forma de pensamento recalcado nos 'labirintos obscuros da mente', e libertado no dizer"</p>
+                    <p class="text-black-50 py-4 px-1 px-md-0 mb-0 text-center text-md-right text-border-left">"Não há solução química para sofrimento psíquico. Medicamentos podem ajudar, mas não podem resolver o que está mal-resolvido. Seja qual for o sofrimento psíquico, terá de passar pela palavra e ser dito, terá de ser libertado das 'correntes' que os prendem sob a forma de pensamento recalcado nos 'labirintos obscuros da mente', e libertado no dizer. Escolher não dizer e calar-se é prender-se a dor psíquica, é escolher o pior. 'Ou dire ou pire' dizia Lacan"</p>
                 </div>
                 <footer class="blockquote-footer py-3 text-left">Jorge Sesarino</footer>
             </div>
