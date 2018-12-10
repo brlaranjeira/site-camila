@@ -163,17 +163,17 @@ foreach ($mobileAgents as $mobileAgent) {
                 <div class="row <?=$paddingClass?>">
                     <div class="col">
                         <label for="contato-nome">Nome</label>
-                        <input placeholder="Ex: Fulano da Silva" type="text" class="form-control" name="contato-nome" id="contato-nome">
+                        <input placeholder="Nome e Sobrenome" type="text" class="form-control" name="contato-nome" id="contato-nome">
                     </div>
                 </div>
                 <div class="row <?=$paddingClass?>">
                     <div class="col-12 col-md">
                         <label for="contato-mail">E-mail</label>
-                        <input placeholder="Ex: fulano.silva@gmail.com" type="text" class="form-control" name="contato-mail" id="contato-mail">
+                        <input placeholder="Endereço de E-mail" type="text" class="form-control" name="contato-mail" id="contato-mail">
                     </div>
                     <div class="col-12 col-md">
                         <label for="contato-fone">Telefone</label>
-                        <input placeholder="Ex: (55) 999-999-999" type="text" class="form-control input-fone" name="contato-fone" id="contato-fone">
+                        <input placeholder="(55) 999-999-999" type="text" class="form-control input-fone" name="contato-fone" id="contato-fone">
                     </div>
                 </div>
                 <div class="row <?=$paddingClass?>">
