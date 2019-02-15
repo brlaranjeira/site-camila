@@ -14,8 +14,16 @@ if (isset($_POST['pw'])) {
         $fname = readdir($diretorio);
         while ($fname !== false) {
             if ($fname !== '.' && $fname !== '..') {
-                echo $fname . '<br/>';
-                echo file_get_contents('./contato/'.$fname) . '<br/>';
+                //echo $fname . '<br/>';
+                $dia = substr($fname,0,10);
+                $campos = explode('-',$dia);
+                $dia = $campos[2] . '/' . $campos[1] . '/' . $campos[0];
+                $hora = substr($fname,11,8);
+                $hora = str_replace('_',':',$hora);
+                echo "Dia $dia as $hora<br/>";
+                $fcontent =  file_get_contents('./contato/'.$fname);
+                $fcontent = nl2br($fcontent);
+                echo $fcontent . '<br/>';
                 echo '<hr/>';
             }
             $fname = readdir($diretorio);
