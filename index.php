@@ -57,6 +57,9 @@ foreach ($mobileAgents as $mobileAgent) {
                     <a class="nav-link js-scroll-trigger" href="#contato">Contato</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="http://lattes.cnpq.br/7813665053970141">Curr&iacute;culo</a>
+                </li>
+                <li class="nav-item">
                     <a target="_blank" class="nav-link" href="https://www.instagram.com/psicologacamilamchagas/"><i class="fab fa-instagram"></i><small class="d-lg-none">&nbsp;/&nbsp;psicologacamilamchagas</small></a>
                 </li>
                 <li class="nav-item">
@@ -227,7 +230,7 @@ foreach ($mobileAgents as $mobileAgent) {
                         <h4 class="text-uppercase m-0">Telefone</h4>
                         <hr class="my-4">
                         <div class="small text-black-50">
-                            <? if ($isMobile) {echo '<a href="http://api.whatsapp.com/send?1=pt_BR&phone=5555991070395">';} ?>
+                            <? if (!$isMobile) { echo "<a href=\"http://api.whatsapp.com/send?1=pt_BR&phone=5555991070395\">"; } ?>
                             (55) 991-070-395
                             <? if ($isMobile) {echo '</a>';} ?>
                         </div>
