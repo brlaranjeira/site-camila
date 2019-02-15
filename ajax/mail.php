@@ -22,13 +22,29 @@ Nome: $contatoNome\r\n
 E-mail: $contatoMail\r\n
 Telefone: $contatoFone\r\n
 Mensagem: $contatoMsg";
-$mailOk = [ mail ( "psi_camila@hotmail.com" , "MENSAGEM NO SITE" , $str), mail ( "brlaranjeira@gmail.com" , "MENSAGEM NO SITE" , $str)];
-$mailOk = $mailOk[0] && $mailOk[1];
-$msg = $mailOk ?
-    "Olá, $contatoNome<br/>Obrigada por entrar em contato.<br/>Em breve entrarei em contato com você." :
-    "Houve um erro ao tentar enviar sua mensagem.";
-$resp = [
-    "success"=> $mailOk,
-    "message" => $msg
-];
-echo json_encode($resp);
+$fname = '';
+$contador = 1;
+while (empty($fname) || file_exists($fname)) {
+    $dthr = date('Y-m-d_H_i_s', time());
+    $fname = '../contato/' . $dthr . '_' . $contador;
+    $contador++;
+}
+$ret=file_put_contents($fname,$str);
+if ($ret !== false) {
+    $resp = [
+        "success"=> true,
+        "message" =>"Olá, $contatoNome<br/>Obrigada por entrar em contato.<br/>Em breve entrarei em contato com você."
+    ];
+    echo json_encode($resp);
+} else {
+    $mailOk = [mail("psi_camila@hotmail.com", "MENSAGEM NO SITE", $str), mail("brlaranjeira@gmail.com", "MENSAGEM NO SITE", $str)];
+    $mailOk = $mailOk[0] && $mailOk[1];
+    $msg = $mailOk ?
+        "Olá, $contatoNome<br/>Obrigada por entrar em contato.<br/>Em breve entrarei em contato com você." :
+        "Houve um erro ao tentar enviar sua mensagem.";
+    $resp = [
+        "success" => $mailOk,
+        "message" => $msg
+    ];
+    echo json_encode($resp);
+}
