@@ -117,7 +117,7 @@ foreach ($mobileAgents as $mobileAgent) {
         <div class="row align-items-center no-gutters mb-4 mb-lg-5 d-flex flex-md-row flex-column">
             <!--<div class="order-md-1 order-2">-->
             <div class="order-md-2 order-1 col-xl-8 col-lg-7">
-                <img class="img-fluid mb-3 mb-lg-0" style="width: 100%;filter:grayscale(100%);" src="img/room.jpg" alt="">
+                <img class="img-fluid mb-3 mb-lg-0" style="width: 100%;filter:grayscale(80%);" src="img/room.jpg" alt="">
                 <small style="font-size: 0.65em;float: right">Imagem retirada de <a target="_blank" href="https://unsplash.com/photos/it-_C9yfRIM">Unsplash</a></small>
             </div>
 
@@ -134,7 +134,7 @@ foreach ($mobileAgents as $mobileAgent) {
         <div class="row align-items-center no-gutters mb-4 mb-lg-5 d-flex flex-md-row flex-column">
             <!--<div class="order-md-1 order-2">-->
             <div class="order-md-1 order-1 col-xl-8 col-lg-7">
-                <img class="img-fluid mb-3 mb-lg-0" style="width: 100%;filter:grayscale(100%);" src="img/couch.jpg" alt="">
+                <img class="img-fluid mb-3 mb-lg-0" style="width: 100%;filter:grayscale(80%);" src="img/couch.jpg" alt="">
                 <small style="font-size: 0.65em;float: right">Imagem retirada de <a target="_blank" href="https://www.pexels.com/">Pexels</a></small>
             </div>
 
