@@ -238,7 +238,6 @@ foreach ($mobileAgents as $mobileAgent) {
 
         <div class="social d-flex justify-content-center">
             <a href="https://www.instagram.com/psicologacamilamchagas/" class="mx-2"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.facebook.com/psicologacamilamchagas/" class="mx-2"><i class="fab fa-facebook-f"></i></a>
         </div>
 
     </div>
