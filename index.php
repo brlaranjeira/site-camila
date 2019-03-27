@@ -105,7 +105,13 @@ foreach ($mobileAgents as $mobileAgent) {
 
     </div>
 </section>
-
+<section id="locais">
+    <h2 id="header-locais">Atendimento em Santa Maria e Porto Alegre, Rio Grande do Sul</h2>
+    <div id="div-locais-imagens">
+        <img class="imagem-local" src="img/sm.jpg" alt="Santa Maria - RS - Monumento da Locomotiva">
+        <img class="imagem-local" src="img/poa.jpg" alt="Porto Alegre - RS - Estátua do Laçador">
+    </div>
+</section>
 <!-- Projects Section -->
 <section id="psicanalise" class="projects-section bg-light">
     <div class="container px-0 px-md-3">

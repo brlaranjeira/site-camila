@@ -4,6 +4,29 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
+.imagem-local {
+  width: 50vw;
+  height: 70vh;
+  position: relative;
+  filter: grayscale(70%);
+}
+
+#header-locais {
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  color: rgba(255,255,255,.8);
+}
+
+#div-locais-imagens {
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+  z-index: 0;
+}
+
 #mainNav {
   min-height: 56px;
   background-color: #fff;
@@ -148,7 +171,7 @@
 
 @media (min-width: 992px) {
   .masthead {
-    height: 100vh;
+    height: 106vh;
   }
   .masthead h1 {
     font-size: 3rem;
