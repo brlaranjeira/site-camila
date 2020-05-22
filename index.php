@@ -157,42 +157,6 @@ foreach ($mobileAgents as $mobileAgent) {
     <?php $paddingClass = "px-1 px-md-5";?>
     <?php $paddingClass = "";?>
     <div class="container">
-        <h2 class="d-flex justify-content-center text-white mb-4">Contato</h2>
-        <div class="card mb-3">
-            <div class="card-body">
-                <div class="row <?=$paddingClass?>">
-                    <div class="col">
-                        <label for="contato-nome">Nome</label>
-                        <input placeholder="Nome e Sobrenome" type="text" class="form-control" name="contato-nome" id="contato-nome">
-                    </div>
-                </div>
-                <div class="row <?=$paddingClass?>">
-                    <div class="col-12 col-md">
-                        <label for="contato-mail">E-mail</label>
-                        <input placeholder="Endereço de E-mail" type="text" class="form-control" name="contato-mail" id="contato-mail">
-                    </div>
-                    <div class="col-12 col-md">
-                        <label for="contato-fone">Telefone</label>
-                        <input placeholder="(55) 999-999-999" type="text" class="form-control input-fone" name="contato-fone" id="contato-fone">
-                    </div>
-                </div>
-                <div class="row <?=$paddingClass?>">
-                    <div class="col">
-                        <label for="contato-msg">Mensagem</label>
-                        <textarea class="form-control" name="contato-msg" id="contato-msg" cols="30" rows="5"></textarea>
-                    </div>
-                </div>
-                <div class="row pb-0 mb-0 <?=$paddingClass?>">
-                    <div class="col">
-                        <button onclick="enviaContato()" class="pb-4 pt-2 mt-3 mb-0 form-control btn btn-block btn-primary">Enviar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="container">
         <div class="row">
 
             <div class="col-md-4 mb-3 mb-md-0">
