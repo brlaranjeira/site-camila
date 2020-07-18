@@ -58,7 +58,7 @@
     color: rgba(75, 75, 75, 1);
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: #64a19d;
   }
   #mainNav .nav-link:active {
     color: white;
