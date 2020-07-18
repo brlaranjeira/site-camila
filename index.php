@@ -59,9 +59,6 @@ foreach ($mobileAgents as $mobileAgent) {
                 <li class="nav-item">
                     <a class="nav-link" target="_blank" href="http://lattes.cnpq.br/7813665053970141">Curr&iacute;culo</a>
                 </li>
-                <li class="nav-item">
-                    <a target="_blank" class="nav-link" href="https://www.instagram.com/psicologacamilamchagas/"><i class="fab fa-instagram"></i><small class="d-lg-none">&nbsp;/&nbsp;psicologacamilamchagas</small></a>
-                </li>
             </ul>
         </div>
     </div>
@@ -188,10 +185,6 @@ foreach ($mobileAgents as $mobileAgent) {
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="social d-flex justify-content-center">
-            <a href="https://www.instagram.com/psicologacamilamchagas/" class="mx-2"><i class="fab fa-instagram"></i></a>
         </div>
 
     </div>
