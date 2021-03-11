@@ -143,12 +143,12 @@ foreach ($mobileAgents as $mobileAgent) {
         </div>
 
         <div class="row align-items-center no-gutters mb-4 mb-lg-5 d-flex flex-md-row flex-column">
-            <div class="order-md-1 order-1 col-xl-8 col-lg-7">
+            <div class="order-md-2 order-1 col-xl-8 col-lg-7">
                 <img class="img-fluid mb-3 mb-lg-0" style="width: 100%;filter:grayscale(100%);" src="img/passaros.jpg" alt="">
                 <small style="font-size: 0.65em;float: right">Imagem retirada de <a target="_blank" href="https://www.pexels.com/">Pexels</a></small>
             </div>
 
-            <div class="order-md-2 order-2 col-xl-4 col-lg-5">
+            <div class="order-md-1 order-2 col-xl-4 col-lg-5">
                 <div class="featured-text text-right">
                     <!--<h4>Shoreline</h4>-->
                     <p class="text-black-50 py-4 px-1 px-md-0 mb-0 text-center text-md-left text-border-left">"Um homem dos vinhedos falou, em agonia, junto ao ouvido de Marcela. Antes de morrer, revelou a ela o segredo:<br/>A uva - sussurrou - é feita de vinho.<br/>Marcela Pérez-Silva me contou isso, e eu pensei: se a uva é feita de vinho, talvez a gente seja as palavras que contam o que a gente é"</p>
