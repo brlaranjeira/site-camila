@@ -151,7 +151,7 @@ foreach ($mobileAgents as $mobileAgent) {
             <div class="order-md-1 order-2 col-xl-4 col-lg-5">
                 <div class="featured-text text-right">
                     <!--<h4>Shoreline</h4>-->
-                    <p class="text-black-50 py-4 px-1 px-md-0 mb-0 text-center text-md-left text-border-left">"Um homem dos vinhedos falou, em agonia, junto ao ouvido de Marcela. Antes de morrer, revelou a ela o segredo:<br/>A uva - sussurrou - é feita de vinho.<br/>Marcela Pérez-Silva me contou isso, e eu pensei: se a uva é feita de vinho, talvez a gente seja as palavras que contam o que a gente é"</p>
+                    <p class="text-black-50 py-4 px-1 px-md-0 mb-0 text-center text-md-left text-border-right">"Um homem dos vinhedos falou, em agonia, junto ao ouvido de Marcela. Antes de morrer, revelou a ela o segredo:<br/>A uva - sussurrou - é feita de vinho.<br/>Marcela Pérez-Silva me contou isso, e eu pensei: se a uva é feita de vinho, talvez a gente seja as palavras que contam o que a gente é"</p>
                 </div>
                 <footer class="blockquote-footer py-3 text-md-right text-right">A uva e o vinho</footer>
             </div>
