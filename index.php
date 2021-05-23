@@ -67,11 +67,12 @@ foreach ($mobileAgents as $mobileAgent) {
 <!-- Header -->
 <header class="masthead ">
     <div class="container d-flex h-100 align-items-tablcenter">
-        <div class="mx-auto pt-md-5 text-center">
+        <div class="mx-auto pt-0 text-center">
             <h1 id="h1-nome" class="text-white-50 mx-auto pb-md-4 pb-1">Camila Moraes<br class="d-md-none"/> Chagas</h1>
             <!--<h2 class="text-white-50 mx-auto pb-2 mt-3">Psicóloga - Psicoterapeuta</h2>-->
             <h2 class="text-white-50 font-weight-light pt-0 pb-1 mx-auto mb-md-3 mt-0">Psicóloga Clínica</h2>
             <h2 class="text-white-50 font-weight-light mx-auto mt-1">CRP 07/28346</h2>
+            <h2 class="text-white-50 font-weight-light mx-auto mt-1 heading-large">Atendimento a crianças, adolescentes e adultos.</h2>
         </div>
     </div>
 </header>

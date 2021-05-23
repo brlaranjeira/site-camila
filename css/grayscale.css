@@ -362,3 +362,7 @@ footer {
 .alerta-invisivel {
   opacity: 0;
 }
+.masthead .heading-large {
+  /*max-width: 40rem;
+  width: 40rem;*/
+}
