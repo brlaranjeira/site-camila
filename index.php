@@ -51,7 +51,7 @@ foreach ($mobileAgents as $mobileAgent) {
                     <a class="nav-link js-scroll-trigger" href="#sobre">Sobre</a>
                 </li>-->
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#psicanalise">Psican&aacute;lise</a>
+                    <a class="nav-link js-scroll-trigger" href="#psicoterapia">Psicoterapia</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#contato">Contato</a>
@@ -104,7 +104,7 @@ foreach ($mobileAgents as $mobileAgent) {
 </section>
 
 <!-- Projects Section -->
-<section id="psicanalise" class="projects-section bg-light">
+<section id="psicoterapia" class="projects-section bg-light">
     <div class="container px-0 px-md-3">
 
         <!-- Featured Project Row -->
